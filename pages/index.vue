@@ -3,7 +3,7 @@
     <header class="header flex">
       <div class="header-menu flex w-350 items-center">
         <img class="h-52 w-114 " src="../static/logo.svg" alt="User picture">
-        <div class="header-circle rounded-full">
+        <div class="header-circle rounded-full flex items-center justify-center">
           <img class="h-52 w-114" src="../static/menu-outline.svg" alt="User picture">
         </div>
       </div>
@@ -26,7 +26,7 @@
     </header>
 
     <main class="main flex h-full">
-      <div class="AppNav flex pl-16">
+      <div class="AppNav flex pl-16 flex-col">
         <div class="nav_item flex items-center">
           <img class="h-5 w-5 mr-4" src="../static/nav_i_1.svg" alt="Item_1">
           <div class="my-8">Dashboard</div>
@@ -144,7 +144,7 @@ export default {
   background-repeat: no-repeat;
 
   display: flex;
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 .header-icon {
   width: 200px;
@@ -159,15 +159,15 @@ export default {
   height: 50px;
   border: 1px solid #efefef;
 
-      display: flex;
+      /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .user-block {
   margin:0px;
 }
 .AppNav {
-  flex-direction: column;
+  /* flex-direction: column; */
     width: 350px;
 }
 .nav_item {
